@@ -34,7 +34,7 @@ That builds with OpenNext and runs `wrangler` using `wrangler.jsonc`. The worker
 
 First-time notes:
 
-1. `npx wrangler login` if this machine is not already authenticated.
+1. `npx wrangler login` (or set `CLOUDFLARE_API_TOKEN`) if this machine is not already authenticated.
 2. If the custom route fails (zone / permission), the worker still publishes to `*.workers.dev`. Attach `www.doooit.me/demo/genre-tree*` in the Cloudflare dashboard afterward — more specific than the existing `doit-blog` host.
 3. `npm run upload` uploads a new version without changing production traffic.
 
