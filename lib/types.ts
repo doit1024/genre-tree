@@ -10,6 +10,7 @@ export type TreeNode = {
   parentId: string | null;
   title: string;
   style: string;
+  /** Site-root path such as `/audio/foo.wav`. The app prefixes `basePath`. */
   audioPath: string;
   card: GenreCard;
 };

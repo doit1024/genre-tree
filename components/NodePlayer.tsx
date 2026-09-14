@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { withBasePath } from "@/lib/base-path";
 import type { TreeNode } from "@/lib/types";
 
 type NodePlayerProps = {
@@ -33,7 +34,7 @@ export function NodePlayer({
         className="deck-audio"
         controls
         preload="metadata"
-        src={node.audioPath}
+        src={withBasePath(node.audioPath)}
         onPlay={onPlay}
       >
         你的浏览器不支持 HTML5 audio。

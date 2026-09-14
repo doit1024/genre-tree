@@ -15,6 +15,7 @@ const sans = Noto_Sans_SC({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.doooit.me"),
   title: "曲风分支 · Genre Tree",
   description:
     "Browse style variants of a public-domain melody. Display-only: static tree, cards, and audio.",
