@@ -1,0 +1,65 @@
+{
+  "melody": {
+    "id": "twinkle",
+    "title": "小星星",
+    "titleEn": "Twinkle Twinkle Little Star"
+  },
+  "nodes": [
+    {
+      "id": "twinkle-root",
+      "parentId": null,
+      "title": "小星星 · 童谣原曲",
+      "style": "Nursery / Folk",
+      "audioPath": "/audio/twinkle-root.wav",
+      "card": {
+        "style": "童谣民谣 · Nursery folk。均匀节拍、音域窄、旋律极容易哼唱。",
+        "instruments": ["人声", "钢琴", "钟琴"],
+        "notableArtists": ["传统民谣传唱", "音乐盒改编", "儿童合唱"],
+        "albums": ["Nursery Favourites", "世界童谣集"]
+      }
+    },
+    {
+      "id": "twinkle-jazz",
+      "parentId": "twinkle-root",
+      "title": "小星星 · 爵士摇摆",
+      "style": "Jazz Swing",
+      "audioPath": "/audio/twinkle-jazz.wav",
+      "card": {
+        "style": "摇摆爵士 · 把原曲放进 shuffle 律动，强调 2、4 拍与七和弦色彩。",
+        "instruments": ["钢琴", "低音提琴", "鼓刷", "小号"],
+        "notableArtists": ["Ella Fitzgerald", "Oscar Peterson", "Bill Evans"],
+        "albums": [
+          "Ella Wishes You a Swinging Christmas",
+          "Night Train",
+          "Sunday at the Village Vanguard"
+        ]
+      }
+    },
+    {
+      "id": "twinkle-lofi",
+      "parentId": "twinkle-root",
+      "title": "小星星 · 轻复古",
+      "style": "Lo-fi Beat",
+      "audioPath": "/audio/twinkle-lofi.wav",
+      "card": {
+        "style": "Lo-fi · 放慢、压暗高频，带一点底噪，像深夜书桌边的循环带。",
+        "instruments": ["电钢琴", "柔和鼓机", "磁带底噪"],
+        "notableArtists": ["Nujabes", "J Dilla", "Tomppabeats"],
+        "albums": ["Modal Soul", "Donuts", "Downtown 81"]
+      }
+    },
+    {
+      "id": "twinkle-chamber",
+      "parentId": "twinkle-root",
+      "title": "小星星 · 室内乐",
+      "style": "Chamber",
+      "audioPath": "/audio/twinkle-chamber.wav",
+      "card": {
+        "style": "室内乐 · 多声部叠置，弓弦与木管把童谣写成小型重奏。",
+        "instruments": ["小提琴", "中提琴", "大提琴", "长笛"],
+        "notableArtists": ["Emerson String Quartet", "Yo-Yo Ma", "Jacqueline du Pré"],
+        "albums": ["Bach: Cello Suites", "Intimate Voices", "The Four Seasons"]
+      }
+    }
+  ]
+}
