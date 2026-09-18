@@ -1,4 +1,4 @@
-export const BASE_PATH = "/demo/genre-tree";
+export const BASE_PATH = "/genre-tree";
 
 /** Prefix a site-root path so public files work under `basePath`. */
 export function withBasePath(path: string): string {
