@@ -16,10 +16,6 @@
     {
       "pattern": "www.doooit.me/genre-tree*",
       "zone_name": "doooit.me"
-    },
-    {
-      "pattern": "www.doooit.me/demo/genre-tree*",
-      "zone_name": "doooit.me"
     }
   ],
   "services": [
