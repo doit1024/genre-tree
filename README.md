@@ -6,7 +6,7 @@ Display-only explorer for style variants of a public-domain melody. Click a bran
 
 Production: [https://www.doooit.me/genre-tree](https://www.doooit.me/genre-tree)
 
-The app is mounted at **`/genre-tree`** (`basePath` + `assetPrefix`). Keep `audioPath` in `data/tree.json` as a site-root path such as `/audio/twinkle-jazz.wav`; the player prefixes the base path. `/demo/genre-tree` redirects to `/genre-tree`.
+The app is mounted at **`/genre-tree`** (`basePath` + `assetPrefix`). Keep `audioPath` in `data/tree.json` as a site-root path such as `/audio/twinkle-jazz.wav`; the player prefixes the base path.
 
 ## Run / 运行
 
@@ -31,7 +31,7 @@ npm install
 npm run deploy
 ```
 
-That builds with OpenNext and runs `wrangler` using `wrangler.jsonc`. The worker name is `genre-tree`. A route is declared for `www.doooit.me/genre-tree*` on zone `doooit.me` (plus a legacy `www.doooit.me/demo/genre-tree*` redirect route).
+That builds with OpenNext and runs `wrangler` using `wrangler.jsonc`. The worker name is `genre-tree`. A route is declared for `www.doooit.me/genre-tree*` on zone `doooit.me`.
 
 First-time notes:
 

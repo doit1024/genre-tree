@@ -1,8 +1,5 @@
 /genre-tree/_next/static/*
   Cache-Control: public,max-age=31536000,immutable
 
-/demo/genre-tree/_next/static/*
-  Cache-Control: public,max-age=31536000,immutable
-
 /_next/static/*
   Cache-Control: public,max-age=31536000,immutable
